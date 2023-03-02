@@ -1,0 +1,14 @@
+class Solution
+{
+   public:
+    int findSum(int A[], int N)
+    {
+    	 sort (A , A+N);
+    	
+    	int s = A[0];
+    	int e = A[N-1];
+    	
+    	return s+e;
+    }
+
+};
